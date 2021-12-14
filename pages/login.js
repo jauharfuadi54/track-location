@@ -14,9 +14,9 @@ export default function Login() {
                 <div className={styles.form}>
                     <h3>Silahkan Login</h3>
                     <div>
-                        <label for="fname">Email</label><br/>
+                        <label>Email</label><br/>
                         <input type="text" id="fname" name="fname"/><br/>
-                        <label for="lname">Password</label><br/>
+                        <label>Password</label><br/>
                         <input type="text" id="lname" name="lname"/><br/><br/>
                         <input type="submit" value="Submit" />
                     </div> 
